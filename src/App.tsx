@@ -568,9 +568,9 @@ const Contact = () => {
               함께 성장할<br className="block sm:hidden" />크리에이터와<br className="block sm:hidden" />파트너를<br className="block sm:hidden" />기다립니다
             </h2>
             <div className="flex flex-wrap gap-4">
-              <a href="mailto:rnwlsdn77@naver.com" className="flex items-center gap-3 bg-black/10 hover:bg-black/20 p-4 rounded-2xl transition-all min-w-[200px]">
+              <a href="mailto:backup99@gmail.com" className="flex items-center gap-3 bg-black/10 hover:bg-black/20 p-4 rounded-2xl transition-all min-w-[200px]">
                 <Mail size={20} />
-                <span className="font-medium">rnwlsdn77@naver.com</span>
+                <span className="font-medium">backup99@gmail.com</span>
               </a>
               <a 
                 href="https://open.kakao.com/o/sXNNb0zh" 
@@ -664,7 +664,7 @@ const Footer = () => {
             <div className="text-xs text-white/40 leading-relaxed space-y-1.5">
               <p>대표 ㅣ 김훈</p>
               <p>연락처 ㅣ 010-9821-2161</p>
-              <p>이메일 ㅣ rnwlsdn77@naver.com</p>
+              <p>이메일 ㅣ backup99@gmail.com</p>
               <p>사업자 등록번호 ㅣ 365-11-02798</p>
             </div>
             
