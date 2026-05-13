@@ -202,7 +202,7 @@ const Hero = () => {
           className="max-w-2xl mx-auto text-lg md:text-xl text-white/50 font-light leading-relaxed mb-12"
         >
           크리에이터와 함께 성장하는 글로벌 MCN 기업<br/>
-          <span className="text-sm opacity-60">TikTok LIVE 기반의 콘텐츠 · 광고 · 커머스를 연결하는 통합형 크리에이터 비즈니스 플랫폼</span>
+          <span className="text-sm opacity-60">TikTok LIVE 기반의 콘텐츠 · 광고 · 커머스를 연결하는<br className="block sm:hidden" /> 통합형 크리에이터 비즈니스 플랫폼</span>
         </motion.p>
         
         <motion.div 
