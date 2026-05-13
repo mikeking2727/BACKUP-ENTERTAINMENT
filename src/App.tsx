@@ -171,7 +171,7 @@ const Hero = () => {
         </motion.div>
         
         <h1 className="text-[16vw] sm:text-6xl md:text-8xl lg:text-9xl font-display font-black leading-[0.9] tracking-tighter mb-12 flex flex-col items-center px-1 sm:px-4 w-full">
-          <span className="opacity-40 mb-1 sm:mb-4">GROWING WITH</span>
+          <span className="text-white mb-1 sm:mb-4">GROWING WITH</span>
           <div className="flex items-center justify-center gap-0.5 sm:gap-4 text-white w-full">
             <span className="text-brand-primary opacity-30 text-[0.8em] flex-shrink-0">[</span>
             <div className="flex justify-center overflow-visible">
@@ -270,6 +270,11 @@ const About = () => {
                 광고, 커머스를 결합한 통합형 비즈니스<br className="block sm:hidden" />
                 모델을 운영합니다.
               </p>
+              <p>
+                Xiaohongshu MCN 공식 파트너로<br className="block sm:hidden" />
+                크리에이터분들의 중국 플랫폼 진출 및<br className="block sm:hidden" />
+                브랜딩 확장을 지원합니다.
+              </p>
             </div>
           </motion.div>
           
@@ -337,7 +342,7 @@ const Business = () => {
     },
     {
       icon: Target,
-      title: "광고 & 마케팅",
+      title: "샤오홍슈 광고 & 마케팅",
       desc: <>SNS 바이럴,<br className="block sm:hidden" /> 숏폼/라이브 연계 광고를 통해<br className="block sm:hidden" /> 브랜드 가치를 극대화합니다.</>
     }
   ];
@@ -652,13 +657,14 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div className="relative">
-            <h4 className="font-bold mb-6 text-sm uppercase tracking-widest">Global HQ</h4>
-            <p className="text-sm text-white/40 leading-relaxed">
-              Seoul, South Korea<br />
-              Global Hub Office<br />
-              Felicity Partnership Global Node
-            </p>
+          <div className="relative lg:col-span-1">
+            <h4 className="font-bold mb-6 text-sm uppercase tracking-widest text-white">BACKUP ENTERTAINMENT</h4>
+            <div className="text-xs text-white/40 leading-relaxed space-y-1.5">
+              <p>대표 ㅣ 김훈</p>
+              <p>연락처 ㅣ 010-9821-2161</p>
+              <p>이메일 ㅣ rnwlsdn77@naver.com</p>
+              <p>사업자 등록번호 ㅣ 365-11-02798</p>
+            </div>
             
             <button 
               onClick={scrollToTop}
@@ -710,9 +716,8 @@ export default function App() {
               <h2 className="text-4xl md:text-5xl font-display font-bold">전문화된 팀 구조로<br className="block sm:hidden" />크리에이터 성장을<br className="block sm:hidden" />지원합니다</h2>
             </div>
             
-            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
               {[
-                { role: "대표", title: "사업 총괄 / 글로벌 전략" },
                 { role: "운영팀", title: "크리에이터 관리 및 교육" },
                 { role: "리크루팅팀", title: "크리에이터 영입 및 파트너십 구축" },
                 { role: "콘텐츠팀", title: "콘텐츠 기획 및 방송 운영 지원" },
@@ -747,7 +752,7 @@ export default function App() {
                 {[
                   <>검증된 TikTok LIVE<br className="block sm:hidden" /> 수익화 모델</>,
                   <>다양한 크리에이터<br className="block sm:hidden" /> 운영 경험</>,
-                  <>Felicity 파트너십 기반<br className="block sm:hidden" /> 글로벌 노하우</>,
+                  <>샤오홍슈 및 Felicity<br className="block sm:hidden" /> 파트너십 기반<br className="block sm:hidden" /> 글로벌 노하우</>,
                   <>체계적인 교육 시스템과<br className="block sm:hidden" /> 성장 구조</>,
                   <>콘텐츠 · 광고 · 커머스<br className="block sm:hidden" /> 통합 수익 모델</>
                 ].map((point, i) => (
