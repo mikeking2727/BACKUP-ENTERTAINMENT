@@ -333,12 +333,12 @@ const Business = () => {
     {
       icon: Smartphone,
       title: "라이브 커머스",
-      desc: "글로벌 상품 판매 연계 및 판매 성과 중심의 콘텐츠 제작 시스템을 운영합니다."
+      desc: <>글로벌 상품 판매 연계 및<br className="block sm:hidden" /> 판매 성과 중심의<br className="block sm:hidden" /> 콘텐츠 제작 시스템을 운영합니다.</>
     },
     {
       icon: Target,
       title: "광고 & 마케팅",
-      desc: "SNS 바이럴, 숏폼/라이브 연계 광고를 통해 브랜드 가치를 극대화합니다."
+      desc: <>SNS 바이럴,<br className="block sm:hidden" /> 숏폼/라이브 연계 광고를 통해<br className="block sm:hidden" /> 브랜드 가치를 극대화합니다.</>
     }
   ];
 
@@ -745,11 +745,11 @@ export default function App() {
               <h2 className="text-4xl font-display font-bold mb-16 text-center">WHY BACKUP?</h2>
               <div className="space-y-4">
                 {[
-                  "검증된 TikTok LIVE 수익화 모델",
+                  <>검증된 TikTok LIVE<br className="block sm:hidden" /> 수익화 모델</>,
                   <>다양한 크리에이터<br className="block sm:hidden" /> 운영 경험</>,
-                  "Felicity 파트너십 기반 글로벌 노하우",
-                  "체계적인 교육 시스템과 성장 구조",
-                  "콘텐츠 · 광고 · 커머스 통합 수익 모델"
+                  <>Felicity 파트너십 기반<br className="block sm:hidden" /> 글로벌 노하우</>,
+                  <>체계적인 교육 시스템과<br className="block sm:hidden" /> 성장 구조</>,
+                  <>콘텐츠 · 광고 · 커머스<br className="block sm:hidden" /> 통합 수익 모델</>
                 ].map((point, i) => (
                   <motion.div 
                     key={i}
