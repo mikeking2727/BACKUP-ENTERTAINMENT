@@ -354,7 +354,9 @@ const Business = () => {
           <div className="max-w-2xl">
             <span className="text-brand-secondary font-bold tracking-[0.2em] text-xs uppercase mb-4 block">OUR BUSINESS</span>
             <h2 className="text-4xl md:text-5xl font-display font-bold leading-tight">
-              5가지 핵심 사업으로<br />크리에이터 생태계를 구축합니다
+              5가지 핵심 사업으로<br className="block sm:hidden" />
+              크리에이터 생태계를<br className="block sm:hidden" />
+              구축합니다
             </h2>
           </div>
           <div className="hidden md:block">
