@@ -476,7 +476,7 @@ const GlobalSection = () => {
           <div className="order-1 lg:order-2">
             <span className="text-brand-secondary font-bold tracking-[0.2em] text-xs uppercase mb-4 block">GLOBAL STRATEGY</span>
             <h2 className="text-4xl md:text-5xl font-display font-bold leading-tight mb-8">
-              중국 시장을 시작으로<br className="block sm:hidden" />아시아 전역으로<br className="block sm:hidden" />확장합니다
+              중국 시장을 시작으로 <br className="block sm:hidden" />아시아 전역으로 <br className="block sm:hidden" />확장합니다
             </h2>
             
             <div className="space-y-12">
