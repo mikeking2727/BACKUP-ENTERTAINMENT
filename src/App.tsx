@@ -354,8 +354,8 @@ const Business = () => {
           <div className="max-w-2xl">
             <span className="text-brand-secondary font-bold tracking-[0.2em] text-xs uppercase mb-4 block">OUR BUSINESS</span>
             <h2 className="text-4xl md:text-5xl font-display font-bold leading-tight">
-              5가지 핵심 사업으로<br className="block sm:hidden" />
-              크리에이터 생태계를<br className="block sm:hidden" />
+              5가지 핵심 사업으로 <br className="block sm:hidden" />
+              크리에이터 생태계를 <br className="block sm:hidden" />
               구축합니다
             </h2>
           </div>
@@ -715,7 +715,10 @@ export default function App() {
           <div className="container mx-auto px-8">
             <div className="text-center mb-20">
               <span className="text-brand-primary font-bold tracking-[0.2em] text-xs uppercase mb-4 block">OUR ORGANIZATION</span>
-              <h2 className="text-4xl md:text-5xl font-display font-bold">전문화된 팀 구조로<br className="block sm:hidden" />크리에이터 성장을<br className="block sm:hidden" />지원합니다</h2>
+              <h2 className="text-4xl md:text-5xl font-display font-bold">
+                전문화된 팀 구조로 크리에이터<br />
+                성장을 지원합니다
+              </h2>
             </div>
             
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
