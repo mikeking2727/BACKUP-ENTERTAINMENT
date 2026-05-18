@@ -78,9 +78,14 @@ const Navbar = () => {
         {['About', 'Business', 'Global'].map((item) => (
           <a key={item} href={`#${item.toLowerCase()}`} className="nav-link whitespace-nowrap">{item}</a>
         ))}
-        <button className="px-6 py-2 border border-white/20 rounded-full text-sm font-medium hover:bg-white hover:text-black transition-all duration-300">
+        <a 
+          href="https://open.kakao.com/o/sXNNb0zh" 
+          target="_blank" 
+          rel="noreferrer"
+          className="px-6 py-2 border border-white/20 rounded-full text-sm font-medium hover:bg-white hover:text-black transition-all duration-300"
+        >
           CONTACT
-        </button>
+        </a>
       </div>
     </motion.nav>
   );
