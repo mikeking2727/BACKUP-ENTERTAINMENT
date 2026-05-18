@@ -354,9 +354,8 @@ const Business = () => {
           <div className="max-w-2xl">
             <span className="text-brand-secondary font-bold tracking-[0.2em] text-xs uppercase mb-4 block">OUR BUSINESS</span>
             <h2 className="text-4xl md:text-5xl font-display font-bold leading-tight">
-              5가지 핵심 사업으로 <br className="block sm:hidden" />
-              크리에이터 생태계를 <br className="block sm:hidden" />
-              구축합니다
+              5가지 핵심 사업으로 크리에이터<br />
+              생태계를 구축합니다
             </h2>
           </div>
           <div className="hidden md:block">
@@ -565,7 +564,7 @@ const Contact = () => {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div>
             <h2 className="text-5xl md:text-7xl font-display font-bold leading-tight mb-8">
-              함께 성장할<br className="block sm:hidden" />크리에이터와<br className="block sm:hidden" />파트너를<br className="block sm:hidden" />기다립니다
+              함께 성장할 <br className="block sm:hidden" />크리에이터와 <br className="block sm:hidden" />파트너를 <br className="block sm:hidden" />기다립니다
             </h2>
             <div className="flex flex-wrap gap-4">
               <a href="mailto:backup99@gmail.com" className="flex items-center gap-3 bg-black/10 hover:bg-black/20 p-4 rounded-2xl transition-all min-w-[200px]">
